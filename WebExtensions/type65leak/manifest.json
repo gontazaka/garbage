@@ -1,0 +1,18 @@
+{
+  "name": "type65leak",
+  "description": "Block any requests.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+    "*://type65leak.example.com/",
+    "webRequest",
+    "webRequestBlocking",
+    "privacy"
+  ]
+}
